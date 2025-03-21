@@ -1,0 +1,268 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #080808;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #f39c12;
+}
+
+#quiz-container {
+    margin-top: 20px;
+}
+
+#topic-select {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0d5688;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+#back-button {
+    background-color: #e67e22;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px ;
+    top: 20px;
+    left: 20px;
+}
+
+.results {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#start-button {
+    background-color: #e67e22;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#help-button {
+    background-color: #e67e22;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+#help-button:hover {
+    background-color: #d35400;
+}
+
+#start-button:hover {
+    background-color: #d35400;
+}
+
+#back-button:hover {
+    background-color: #d35400;
+}
+
+#question-container {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(241, 232, 232, 0.7);
+    background-image: url('image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+#choices li {
+    margin: 10px 0;
+}
+
+#choices li button {
+    background-color: #0276c4;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#choices li button:hover {
+    background-color: #118adb;
+}
+
+.correct {
+    background-color: #0bcc5b !important;
+}
+
+.wrong {
+    background-color: #e74c3c !important;
+}
+
+#score-container {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #e9950e;
+}
+
+#answer-container {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #74afb5
+}
+
+#answer-container h3 {
+    margin-bottom: 10px;
+}
+
+#answer-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#answer-container li {
+    margin: 2px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#restart-button {
+    background-color: #e67e22;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+#restart-button:hover {
+    background-color: #d35400;
+}
+
+#choices li button::before {
+    content: attr(data-choice);
+    font-weight: bold;
+    margin-right: 5px;
+    color: #f39c12;
+}
+
+#choices li:nth-child(1) button::before {
+    color: #00fff7;
+}
+
+#choices li:nth-child(2) button::before {
+    color: #dbca34;
+}
+
+#choices li:nth-child(3) button::before {
+    color: #0ff603;
+}
+
+#choices li:nth-child(4) button::before {
+    color: #ffffff;
+}
+
+#player1-name {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#player1-name:hover {
+    background: linear-gradient(90deg, rgb(233, 219, 95) 0%, rgba(252, 48, 48) 100%);
+    color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+#player2-name {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#player2-name:hover {
+    background: linear-gradient(90deg, rgb(233, 219, 95) 0%, rgb(252, 48, 48) 100%);
+    color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+#player2-name {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: block;
+    margin: 20px auto;
+}

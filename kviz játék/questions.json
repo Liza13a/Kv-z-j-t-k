@@ -1,0 +1,39 @@
+{
+    "history": [
+        { "question": "Ki volt az első római császár?", "choices": ["Caesar Octavianus.", "Nero", "Caligula", "Tiberius"], "answer": "Caesar Octavianus." },
+        { "question": "Melyik évben történt a szabadságharc Magyarországon?", "choices": ["1846", "1847", "1848", "1849"], "answer": "1848" },
+        { "question": "Mikor történt a berlini fal leomlása?", "choices": ["1985", "1987", "1989", "1991"], "answer": "1989" },
+        { "question": "Ki volt az utolsó szovjet vezető?", "choices": ["Mihail Szergejevics Gorbacsov", "Leonyid Iljics Brezsnyev", "Nyikita Szergejevics Hruscsov", "Jurij Vlagyimirovics Andropov"], "answer": "Mihail Szergejevics Gorbacsov" },
+        { "question": "Melyik évben kezdődött az I. világháború?", "choices": ["1912", "1914", "1916", "1918"], "answer": "1914" },
+        { "question": "Ki volt az első amerikai elnök?", "choices": ["Thomas Jefferson", "Abraham Lincoln ", "George Washington", "Franklin D. Roosevelt"], "answer": "George Washington" },
+        { "question": "Melyik évben történt a nagy francia forradalom?", "choices": ["1787", "1788", "1789", "1790"], "answer": "1789" },
+        { "question": "Ki volt a második világháború idején brit miniszterelnök?", "choices": ["Winston Churchill", "Clement Attlee", "Neville Chamberlain", "Harold Macmillan"], "answer": "Winston Churchill" },
+        { "question": "Melyik évben lett Magyarország EU-tag?", "choices": ["2002", "2003", "2004", "2005"], "answer": "2004" },
+        { "question": "Melyik ország hódította meg először a Mount Everestet?", "choices": ["Kína", "Nepál", "Oroszország", "Egyesült Királyság"], "answer": "Nepál" }
+    ],
+    "sport": [
+        { "question": "Melyik ország nyerte a legtöbb labdarúgó-világbajnokságot?", "choices": ["Brazila", "Spanyolország", "Németország", "Portugália"], "answer": "Brazila" },
+        { "question": "Ki tartja a 100 méteres síkfutás világrekordját?", "choices": ["Usain Bolt", "Tyson Gay", "Yohan Blake", "Asafa Powell"], "answer": "Usain Bolt" },
+        { "question": "Melyik sportágban használható a 'love' kifejezést a pontozásban?", "choices": ["Tenisz", "Poker", "Darts", "Teke"], "answer": "Tenisz" },
+        { "question": "Hány játékos van egy kosárlabdacsapatban a pályán?", "choices": ["5", "6", "7", "8"], "answer": "5" },
+        { "question": "Milyen hosszú egy olimpiai úszómedence?", "choices": ["40", "50", "55", "60"], "answer": "50" },
+        { "question": "Melyik országban rendezik a Tour de France kerékpárversenyt?", "choices": ["Olaszország", "Spanyolország", "Franciaország", "Németország"], "answer": "Franciaország" },
+        { "question": "Melyik országban találták fel a karate-t?", "choices": ["Kína", "Oroszország", "Franciaország", "Németország"], "answer": "Kína" },
+        { "question": "Ki nyerte a legtöbb Grand Slam teniszbajnokságot?", "choices": ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Pete Sampras"], "answer": "Novak Djokovic" },
+        { "question": "Melyik sportágban használják a bokszkesztyűt?", "choices": ["Foci", "Kosárlabda", "Boksz", "Rögbi"], "answer": "Boksz" },
+        { "question": "Ki nyerte a 2021-es Formula 1 világbajnokságot?", "choices": ["Lewis Hamilton", "Max Verstappen", "Sebastian Vettel", "Charles Leclerc"], "answer": "Max Verstappen" }
+    ],
+    "geography": [
+        { "question": "Mi Magyarország fővárosa?", "choices": ["Budapest", "Debrecen", "Szeged", "Pécs"], "answer": "Budapest" },
+        { "question": "Melyik kontinensen található Japán?", "choices": ["Európa", "Amerika", "Ázsia", "Afrika"], "answer": "Ázsia" },
+        { "question": "Melyik ország fővárosa Berlin?", "choices": ["Franciaország", "Németország", "Olaszország", "Spanyolország"], "answer": "Németország" },
+        { "question": "Melyik folyó folyik Párizson keresztül?", "choices": ["Temze", "Duna", "Rajna", "Szajna"], "answer": "Szajna" },
+        { "question": "Melyik ország fővárosa Canberra?", "choices": ["Ausztrália", "Kanada", "Brazília", "India"], "answer": "Ausztrália" },
+        { "question": "Melyik kontinensen található Egyiptom?", "choices": ["Európa", "Ázsia", "Afrika", "Dél-Amerika"], "answer": "Afrika" },
+        { "question": "Melyik országban található a Machu Picchu?", "choices": ["Peru", "Chile", "Mexikó", "Argentína"], "answer": "Peru" },
+        { "question": "Melyik ország fővárosa Tokió?", "choices": ["Dél-Korea", "Japán", "Kína", "Vietnam"], "answer": "Japán" },
+        { "question": "Melyik óceán határolja Kaliforniát?", "choices": ["Atlanti-óceán", "Indiai-óceán", "Csendes-óceán", "Jeges-tenger"], "answer": "Csendes-óceán" },
+        { "question": "Melyik országban található a Niagara-vízesés?", "choices": ["USA", "Kanada", "Mexikó", "Brazília"], "answer": "Kanada" },
+        { "question": "Melyik városban található az Eiffel-torony?", "choices": ["London", "Róma", "Párizs", "Berlin"], "answer": "Párizs" }
+    ]
+}
